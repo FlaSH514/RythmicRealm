@@ -5,7 +5,7 @@
 !package.json
 !package-lock.json
 .cache
-recommendations/data/mergedFile.csv
+# recommendations/data/mergedFile.csv
 recommendations/model/*.pkl
 **/__pycache__/
 

@@ -1,5 +1,5 @@
 // import React, { useState } from "react";
-import logo from "../img/logo.svg";
+import logo from "../img/rythmicRealm.png";
 import { Icon } from "../Icons";
 import Menu from "../components/Sidebar/Menu";
 import Playlists from "../components/Sidebar/Playlists";
@@ -9,7 +9,7 @@ function Sidebar() {
   return (
     <aside className={`w-60 pt-6 flex flex-shrink-0 flex-col bg-black`}>
       <Link to="#" className="mb-7 px-6">
-        <img src={logo} alt="" className="h-10" />
+        <img src={logo} alt="" className="h-36 w-full" />
       </Link>
 
       <Menu />
